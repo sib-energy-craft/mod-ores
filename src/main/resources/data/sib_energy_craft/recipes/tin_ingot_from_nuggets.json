@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tin_ingot",
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "sib_energy_craft:tin_nugget"
+    }
+  },
+  "result": {
+    "item": "sib_energy_craft:tin_ingot"
+  }
+}

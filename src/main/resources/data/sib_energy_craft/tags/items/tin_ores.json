@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "sib_energy_craft:tin_ore",
+    "sib_energy_craft:deepslate_tin_ore"
+  ]
+}

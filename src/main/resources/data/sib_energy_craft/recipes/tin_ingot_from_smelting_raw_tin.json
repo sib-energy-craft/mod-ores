@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "group": "tin_ingot",
+  "ingredient": {
+    "item": "sib_energy_craft:raw_tin"
+  },
+  "result": "sib_energy_craft:tin_ingot",
+  "experience": 0.7,
+  "cookingtime": 100
+}

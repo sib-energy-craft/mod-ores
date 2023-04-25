@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "sib_energy_craft:raw_silver_block"
+    }
+  ],
+  "result": {
+    "item": "sib_energy_craft:raw_silver",
+    "count": 9
+  }
+}

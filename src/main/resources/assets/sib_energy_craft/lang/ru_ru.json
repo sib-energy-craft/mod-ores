@@ -1,0 +1,16 @@
+{
+  "block.sib_energy_craft.tin_ore": "Оловянная руда",
+  "block.sib_energy_craft.deepslate_tin_ore": "Оловоносный глубинный сланец",
+  "block.sib_energy_craft.tin_block": "Блок рудного олова",
+  "item.sib_energy_craft.tin_ingot": "Оловянный слиток",
+  "item.sib_energy_craft.raw_tin": "Рудное олово",
+  "block.sib_energy_craft.raw_tin_block": "Блок рудного олова",
+  "item.sib_energy_craft.tin_nugget": "Кусочек олова",
+  "block.sib_energy_craft.silver_ore": "Серебряная руда",
+  "block.sib_energy_craft.deepslate_silver_ore": "Сереброносный глубинный сланец",
+  "block.sib_energy_craft.silver_block": "Блок серебра",
+  "item.sib_energy_craft.silver_ingot": "Серебряный слиток",
+  "item.sib_energy_craft.raw_silver": "Рудное серебро",
+  "block.sib_energy_craft.raw_silver_block": "Блок рудного серебра",
+  "item.sib_energy_craft.silver_nugget": "Кусочек серебра"
+}

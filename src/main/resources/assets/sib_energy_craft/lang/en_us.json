@@ -1,0 +1,16 @@
+{
+  "block.sib_energy_craft.tin_ore": "Tin Ore",
+  "block.sib_energy_craft.deepslate_tin_ore": "Deepslate Tin Ore",
+  "block.sib_energy_craft.tin_block": "Block of Tin",
+  "item.sib_energy_craft.tin_ingot": "Tin Ingot",
+  "item.sib_energy_craft.raw_tin": "Raw Tin",
+  "block.sib_energy_craft.raw_tin_block": "Block of Raw Tin",
+  "item.sib_energy_craft.tin_nugget": "Tin Nugget",
+  "block.sib_energy_craft.silver_ore": "Silver Ore",
+  "block.sib_energy_craft.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.sib_energy_craft.silver_block": "Block of Silver",
+  "item.sib_energy_craft.silver_ingot": "Silver Ingot",
+  "item.sib_energy_craft.raw_silver": "Raw Silver",
+  "block.sib_energy_craft.raw_silver_block": "Block of Raw Silver",
+  "item.sib_energy_craft.silver_nugget": "Silver Nugget"
+}

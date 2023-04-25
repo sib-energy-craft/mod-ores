@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "#sib_energy_craft:tin_ores",
+    "sib_energy_craft:tin_block",
+    "sib_energy_craft:raw_tin_block",
+    "#sib_energy_craft:silver_ores",
+    "sib_energy_craft:silver_block",
+    "sib_energy_craft:raw_silver_block"
+  ]
+}
