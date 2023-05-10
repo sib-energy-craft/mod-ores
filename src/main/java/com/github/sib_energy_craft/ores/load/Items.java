@@ -3,6 +3,7 @@ package com.github.sib_energy_craft.ores.load;
 import com.github.sib_energy_craft.energy_api.utils.Identifiers;
 import lombok.AccessLevel;
 import lombok.NoArgsConstructor;
+import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
 import net.minecraft.util.Rarity;
@@ -16,19 +17,19 @@ import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.registerBloc
  */
 @NoArgsConstructor(access = AccessLevel.PRIVATE)
 public final class Items {
-    public static final Item TIN_ORE_BLOCK;
-    public static final Item TIN_BLOCK;
-    public static final Item RAW_TIN_BLOCK;
-    public static final Item DEEPSLATE_TIN_ORE_BLOCK;
+    public static final BlockItem TIN_ORE_BLOCK;
+    public static final BlockItem TIN_BLOCK;
+    public static final BlockItem RAW_TIN_BLOCK;
+    public static final BlockItem DEEPSLATE_TIN_ORE_BLOCK;
 
     public static final Item TIN_INGOT;
     public static final Item TIN_RAW_ORE;
     public static final Item TIN_NUGGET;
     
-    public static final Item SILVER_ORE_BLOCK;
-    public static final Item SILVER_BLOCK;
-    public static final Item RAW_SILVER_BLOCK;
-    public static final Item DEEPSLATE_SILVER_ORE_BLOCK;
+    public static final BlockItem SILVER_ORE_BLOCK;
+    public static final BlockItem SILVER_BLOCK;
+    public static final BlockItem RAW_SILVER_BLOCK;
+    public static final BlockItem DEEPSLATE_SILVER_ORE_BLOCK;
 
     public static final Item SILVER_INGOT;
     public static final Item SILVER_RAW_ORE;
