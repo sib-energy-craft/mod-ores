@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sec-mod-ores",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "name": "SibEnergyCraft - Ores",
   "authors": [
     "sibmaks"
@@ -17,7 +17,9 @@
   },
   "entrypoints": {
     "main": [
-      "com.github.sib_energy_craft.ores.load.Loader"
+      "com.github.sib_energy_craft.ores.load.Blocks",
+      "com.github.sib_energy_craft.ores.load.Items",
+      "com.github.sib_energy_craft.ores.load.PlacedFeatures"
     ]
   }
 }

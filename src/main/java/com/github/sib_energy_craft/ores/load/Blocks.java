@@ -2,8 +2,7 @@ package com.github.sib_energy_craft.ores.load;
 
 import com.github.sib_energy_craft.energy_api.utils.Identifiers;
 import com.github.sib_energy_craft.sec_utils.common.Identified;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
+import com.github.sib_energy_craft.sec_utils.load.DefaultModInitializer;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -14,11 +13,10 @@ import net.minecraft.sound.BlockSoundGroup;
 import static com.github.sib_energy_craft.sec_utils.utils.BlockUtils.register;
 
 /**
- * @author drobyshev-ma
- * Created at 19-12-2022
+ * @author sibmaks
+ * @since 0.0.1
  */
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
-public final class Blocks {
+public final class Blocks implements DefaultModInitializer {
     public static final Identified<Block> TIN_ORE;
     public static final Identified<Block> RAW_TIN;
     public static final Identified<Block> DEEPSLATE_TIN_ORE;

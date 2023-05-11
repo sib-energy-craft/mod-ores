@@ -1,8 +1,7 @@
 package com.github.sib_energy_craft.ores.load;
 
 import com.github.sib_energy_craft.energy_api.utils.Identifiers;
-import lombok.AccessLevel;
-import lombok.NoArgsConstructor;
+import com.github.sib_energy_craft.sec_utils.load.DefaultModInitializer;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -12,11 +11,10 @@ import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.register;
 import static com.github.sib_energy_craft.sec_utils.utils.ItemUtils.registerBlockItem;
 
 /**
- * @author drobyshev-ma
- * Created at 19-12-2022
+ * @author sibmaks
+ * @since 0.0.1
  */
-@NoArgsConstructor(access = AccessLevel.PRIVATE)
-public final class Items {
+public final class Items implements DefaultModInitializer {
     public static final BlockItem TIN_ORE_BLOCK;
     public static final BlockItem TIN_BLOCK;
     public static final BlockItem RAW_TIN_BLOCK;
