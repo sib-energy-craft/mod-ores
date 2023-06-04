@@ -27,6 +27,10 @@ public final class Blocks implements DefaultModInitializer {
     public static final Identified<Block> DEEPSLATE_SILVER_ORE;
     public static final Identified<Block> SILVER_BLOCK;
 
+    public static final Identified<Block> SULFUR_ORE;
+    public static final Identified<Block> DEEPSLATE_SULFUR_ORE;
+    public static final Identified<Block> SULFUR_BLOCK;
+
     static {
         final var tinOreSettings = FabricBlockSettings.of(Material.STONE)
                 .sounds(BlockSoundGroup.STONE)
@@ -89,5 +93,32 @@ public final class Blocks implements DefaultModInitializer {
                 .requiresTool();
 
         SILVER_BLOCK = register(Identifiers.of("silver_block"), new Block(metalSilverSettings));
+
+        {
+            final var sulfurOreSettings = FabricBlockSettings.of(Material.STONE)
+                    .sounds(BlockSoundGroup.STONE)
+                    .strength(3, 3)
+                    .requiresTool();
+
+            SULFUR_ORE = register(Identifiers.of("sulfur_ore"),
+                    new ExperienceDroppingBlock(sulfurOreSettings));
+
+            final var deepslateSulfurSettings = FabricBlockSettings.of(Material.STONE)
+                    .sounds(BlockSoundGroup.DEEPSLATE)
+                    .mapColor(MapColor.DEEPSLATE_GRAY)
+                    .strength(4.5f, 3)
+                    .requiresTool();
+
+            DEEPSLATE_SULFUR_ORE = register(Identifiers.of("deepslate_sulfur_ore"),
+                    new ExperienceDroppingBlock(deepslateSulfurSettings));
+
+            final var sulfurBlockSettings = FabricBlockSettings.of(Material.METAL)
+                    .mapColor(MapColor.YELLOW)
+                    .sounds(BlockSoundGroup.METAL)
+                    .strength(5, 6)
+                    .requiresTool();
+
+            SULFUR_BLOCK = register(Identifiers.of("sulfur_block"), new Block(sulfurBlockSettings));
+        }
     }
 }

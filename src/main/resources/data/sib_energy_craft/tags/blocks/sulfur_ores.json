@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "sib_energy_craft:sulfur_ore",
+    "sib_energy_craft:deepslate_sulfur_ore"
+  ]
+}

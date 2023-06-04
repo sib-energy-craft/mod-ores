@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "sulfur",
+  "key": {
+    "#": {
+      "item": "sib_energy_craft:sulfur"
+    }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
+  ],
+  "result": {
+    "item": "sib_energy_craft:sulfur_block"
+  },
+  "show_notification": true
+}
