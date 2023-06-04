@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "sulfur",
+  "ingredients": [
+    {
+      "item": "sib_energy_craft:sulfur_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "sib_energy_craft:sulfur"
+  }
+}

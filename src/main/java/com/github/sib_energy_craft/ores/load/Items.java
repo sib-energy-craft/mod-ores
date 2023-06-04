@@ -33,6 +33,12 @@ public final class Items implements DefaultModInitializer {
     public static final Item SILVER_RAW_ORE;
     public static final Item SILVER_NUGGET;
 
+
+    public static final BlockItem SULFUR_ORE_BLOCK;
+    public static final BlockItem DEEPSLATE_SULFUR_ORE_BLOCK;
+    public static final Item SULFUR;
+    public static final Item SULFUR_BLOCK;
+
     static {
         TIN_ORE_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.TIN_ORE);
         TIN_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.TIN_BLOCK);
@@ -53,5 +59,10 @@ public final class Items implements DefaultModInitializer {
         SILVER_INGOT = register(ItemGroups.INGREDIENTS, Identifiers.of("silver_ingot"), simpleMaterial);
         SILVER_RAW_ORE = register(ItemGroups.INGREDIENTS, Identifiers.of("raw_silver"), simpleMaterial);
         SILVER_NUGGET = register(ItemGroups.INGREDIENTS, Identifiers.of("silver_nugget"), simpleMaterial);
+
+        SULFUR_ORE_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.SULFUR_ORE);
+        DEEPSLATE_SULFUR_ORE_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.DEEPSLATE_SULFUR_ORE);
+        SULFUR = register(ItemGroups.INGREDIENTS, Identifiers.of("sulfur"), simpleMaterial);
+        SULFUR_BLOCK = registerBlockItem(ItemGroups.BUILDING_BLOCKS, Blocks.SULFUR_BLOCK);
     }
 }

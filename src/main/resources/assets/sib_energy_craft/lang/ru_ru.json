@@ -12,5 +12,10 @@
   "item.sib_energy_craft.silver_ingot": "Серебряный слиток",
   "item.sib_energy_craft.raw_silver": "Рудное серебро",
   "block.sib_energy_craft.raw_silver_block": "Блок рудного серебра",
-  "item.sib_energy_craft.silver_nugget": "Кусочек серебра"
+  "item.sib_energy_craft.silver_nugget": "Кусочек серебра",
+
+  "block.sib_energy_craft.sulfur_ore": "Cерная руда",
+  "block.sib_energy_craft.deepslate_sulfur_ore": "Серосодержащий глубинный сланец",
+  "block.sib_energy_craft.sulfur_block": "Блок серы",
+  "item.sib_energy_craft.sulfur": "Сера"
 }

@@ -22,6 +22,9 @@ public final class PlacedFeatures implements DefaultModInitializer {
     public static final RegistryKey<PlacedFeature> ORE_SILVER_EXTRA;
     public static final RegistryKey<PlacedFeature> ORE_SILVER_LOWER;
 
+    public static final RegistryKey<PlacedFeature> ORE_SULFUR;
+    public static final RegistryKey<PlacedFeature> ORE_SULFUR_UPPER;
+
     static {
         var foundInOverworld = BiomeSelectors.foundInOverworld();
 
@@ -38,6 +41,12 @@ public final class PlacedFeatures implements DefaultModInitializer {
         BiomeModifications.addFeature(foundInOverworld, GenerationStep.Feature.UNDERGROUND_ORES, ORE_SILVER_EXTRA);
         ORE_SILVER_LOWER = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifiers.of("ore_silver_lower"));
         BiomeModifications.addFeature(foundInOverworld, GenerationStep.Feature.UNDERGROUND_ORES, ORE_SILVER_LOWER);
+
+        ORE_SULFUR = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifiers.of("ore_sulfur"));
+        BiomeModifications.addFeature(foundInOverworld, GenerationStep.Feature.UNDERGROUND_ORES, ORE_SULFUR);
+
+        ORE_SULFUR_UPPER = RegistryKey.of(RegistryKeys.PLACED_FEATURE, Identifiers.of("ore_sulfur_upper"));
+        BiomeModifications.addFeature(foundInOverworld, GenerationStep.Feature.UNDERGROUND_ORES, ORE_SULFUR_UPPER);
     }
 
 }

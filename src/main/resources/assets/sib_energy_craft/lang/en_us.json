@@ -12,5 +12,10 @@
   "item.sib_energy_craft.silver_ingot": "Silver Ingot",
   "item.sib_energy_craft.raw_silver": "Raw Silver",
   "block.sib_energy_craft.raw_silver_block": "Block of Raw Silver",
-  "item.sib_energy_craft.silver_nugget": "Silver Nugget"
+  "item.sib_energy_craft.silver_nugget": "Silver Nugget",
+
+  "block.sib_energy_craft.sulfur_ore": "Sulfur Ore",
+  "block.sib_energy_craft.deepslate_sulfur_ore": "Deepslate Sulfur Ore",
+  "block.sib_energy_craft.sulfur_block": "Block of Sulfur",
+  "item.sib_energy_craft.sulfur": "Sulfur"
 }
