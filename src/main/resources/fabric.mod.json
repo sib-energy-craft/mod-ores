@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "sec-mod-ores",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "name": "SibEnergyCraft - Ores",
   "authors": [
     "sibmaks"
@@ -13,7 +13,7 @@
   "depends": {
     "fabricloader": ">=0.14.21",
     "fabric": "*",
-    "minecraft": "1.20-rc.1"
+    "minecraft": "1.20"
   },
   "entrypoints": {
     "main": [
